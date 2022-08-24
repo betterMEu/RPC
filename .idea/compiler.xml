@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rpc-center" />
+        <module name="server" />
+        <module name="client" />
+        <module name="rpc-common" />
+        <module name="service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SangYu-RPC" options="-parameters" />
+      <module name="client" options="" />
+      <module name="rpc-center" options="" />
+      <module name="rpc-common" options="" />
+      <module name="server" options="" />
+      <module name="service" options="" />
+    </option>
+  </component>
+</project>

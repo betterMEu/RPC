@@ -1,0 +1,1 @@
+balance=com.rpccenter.loadbalance.Impl.ConsistentHashLoadBalance
